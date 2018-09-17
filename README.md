@@ -13,10 +13,10 @@
 * [Wiki: MD5 - 128-битный алгоритм хеширования](https://ru.wikipedia.org/wiki/MD5).
 * [Wiki: Rainbow Table - Радужная таблица](https://en.wikipedia.org/wiki/Rainbow_table).
 * [Wiki: Соль (криптография)](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D1%8C_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F)).
-* (PKCS #5: Password-Based Cryptography Specification)[http://www.ietf.org/rfc/rfc2898.txt].
-* (Wiki: bcrypt)[https://en.wikipedia.org/wiki/Bcrypt].
-* (PKCS #12)[https://en.wikipedia.org/wiki/PKCS_12].
-* (Wiki: X.509)[https://en.wikipedia.org/wiki/X.509].
+* [PKCS #5: Password-Based Cryptography Specification](http://www.ietf.org/rfc/rfc2898.txt).
+* [Wiki: bcrypt](https://en.wikipedia.org/wiki/Bcrypt).
+* [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12).
+* [Wiki: X.509](https://en.wikipedia.org/wiki/X.509).
 
 ## 3. Створення ліцензійного ключа
 ### Мета: дослідити і порівняти існуючі механізми створення і перевірки валідності ліцензійних ключів.
