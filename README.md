@@ -11,12 +11,12 @@
 Дослідити існуючі механізми зберігання паролю. Зробити порівняльну характеристику кожного механізму. Реалізувати механізм зберігання паролю та продемонструвати процес аутентифікації. Довести що даний метод оптимальний.
 ### Додаткова Література:
 * [Wiki: MD5 - 128-битный алгоритм хеширования](https://ru.wikipedia.org/wiki/MD5).
-* [Rainbow Table - Радужная таблица](https://en.wikipedia.org/wiki/Rainbow_table).
-* https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D1%8C_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F)
-* http://www.ietf.org/rfc/rfc2898.txt
-* https://en.wikipedia.org/wiki/Bcrypt
-* https://en.wikipedia.org/wiki/PKCS_12
-* https://en.wikipedia.org/wiki/X.509
+* [Wiki: Rainbow Table - Радужная таблица](https://en.wikipedia.org/wiki/Rainbow_table).
+* [Wiki: Соль (криптография)](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BB%D1%8C_(%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F)).
+* (PKCS #5: Password-Based Cryptography Specification)[http://www.ietf.org/rfc/rfc2898.txt].
+* (Wiki: bcrypt)[https://en.wikipedia.org/wiki/Bcrypt].
+* (PKCS #12)[https://en.wikipedia.org/wiki/PKCS_12].
+* (Wiki: X.509)[https://en.wikipedia.org/wiki/X.509].
 
 ## 3. Створення ліцензійного ключа
 ### Мета: дослідити і порівняти існуючі механізми створення і перевірки валідності ліцензійних ключів.
@@ -28,7 +28,7 @@
 ### Індивідуальне завдання
 Дослідити алгоритм [Time-based One Time Password](https://ru.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm). Створити програму, що реалізує механізм генерації одноразових паролів TOTP. Для додаткових балів - організувати взаємодію з мобільним додатком [Google Authenticator](https://ru.wikipedia.org/wiki/Google_Authenticator).
 ### Додаткова Література:
-* https://ru.wikipedia.org/wiki/HOTP
+* (Wiki: HMAC-Based One-Time Password Algorithm)[https://ru.wikipedia.org/wiki/HOTP].
 
 ## 6-8. Атаки на Алгоритмическую сложность (Algorithmic complexity attacks)
 ### Мета: дослідити тип атак - Algorithmic complexity, що включають до себе Zip-bombs, Fork-bombs, Compile bomb, Xml bombs.  
@@ -51,9 +51,9 @@
 ## 12-13. Захист веб сайтів від XSS ін’єкцій
 ### Мета: дослідити механізми захисту веб сайтів на базі використання XSS.
 ### Індивідуальне завдання
-Використовуючи офіційну документацію (https://www.owasp.org), створити простий веб проект, що буде мати додаткову ступінь захисту (напр. від XSS ін’єкцій) від зловмисного наміру. 
+Використовуючи офіційну документацію [The Open Web Application Security Projec](https://www.owasp.org), створити простий веб проект, що буде мати додаткову ступінь захисту (напр. від XSS ін’єкцій) від зловмисного наміру. 
 
 ## 14-16. Мікросервісна архітектура
 ### Мета: дослідити мкросервісну архітуктуру, її недоліки від монолітної архітуктури.
 ### Індивідуальне завдання
-Провести аналіз [мікросервісной архітектури](http://microservices.io/patterns/microservices.html). Навести звіт порівняльної характеристики з монолітною архітектурою. Розробити веб сайт, що демонструє дану архітектуру. При реалізації треба використовувати зовнішний сервіс для аутентифікації [OAuth2](https://oauth.net/2/) (див. [Okta](https://www.okta.com/free-trial/) як зовнішний [Identity Provider](https://en.wikipedia.org/wiki/Identity_provider), [KeyCloak](https://www.keycloak.org/downloads.html) як Identity Provider, що встановлюється локально)
+Провести аналіз [мікросервісной архітектури](http://microservices.io/patterns/microservices.html). Навести звіт порівняльної характеристики з монолітною архітектурою. Розробити веб сайт, що демонструє дану архітектуру. При реалізації треба використовувати зовнішний сервіс для аутентифікації [OAuth2](https://oauth.net/2/) (див. [Okta](https://www.okta.com/free-trial/) як зовнішний [Identity Provider](https://en.wikipedia.org/wiki/Identity_provider), [KeyCloak](https://www.keycloak.org/downloads.html) як Identity Provider, що встановлюється локально).
