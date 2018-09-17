@@ -28,7 +28,7 @@
 ### Індивідуальне завдання
 Дослідити алгоритм [Time-based One Time Password](https://ru.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm). Створити програму, що реалізує механізм генерації одноразових паролів TOTP. Для додаткових балів - організувати взаємодію з мобільним додатком [Google Authenticator](https://ru.wikipedia.org/wiki/Google_Authenticator).
 ### Додаткова Література:
-* (Wiki: HMAC-Based One-Time Password Algorithm)[https://ru.wikipedia.org/wiki/HOTP].
+* [Wiki: HMAC-Based One-Time Password Algorithm](https://ru.wikipedia.org/wiki/HOTP).
 
 ## 6-8. Атаки на Алгоритмическую сложность (Algorithmic complexity attacks)
 ### Мета: дослідити тип атак - Algorithmic complexity, що включають до себе Zip-bombs, Fork-bombs, Compile bomb, Xml bombs.  
